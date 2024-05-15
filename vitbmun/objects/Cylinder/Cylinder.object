@@ -1,0 +1,84 @@
+{
+  "modelName": "master3_d_object_model",
+  "name": "Cylinder",
+  "identifier": "master3_d_object_model:674926-7a4677af-a031-4632-865c-8a0d587d13ab",
+  "sourceIdentifier": "asset_collection_model:674930-7a4677af-a031-4632-865c-8a0d587d13ab",
+  "animationMask": {
+    "position": false,
+    "rotation": false,
+    "scale": false
+  },
+  "cameraVisibility": "back|front",
+  "depth": 0.050000015646219254,
+  "globalScaleFactor": 1,
+  "height": 0.04999999701976776,
+  "hidden": false,
+  "layerIdentifier": "layer0",
+  "outputVisibility": "preview|capture",
+  "physicsEnabled": false,
+  "tags": [],
+  "transform": {
+    "rx": 0,
+    "ry": 0,
+    "rz": 0,
+    "sx": 1,
+    "sy": 1,
+    "sz": 1,
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "width": 0.05000000447034836,
+  "children": [
+    {
+      "modelName": "mesh",
+      "name": "Cylinder",
+      "identifier": "mesh:674916-7a4677af-a031-4632-865c-8a0d587d13ab",
+      "animationMask": {
+        "position": false,
+        "rotation": false,
+        "scale": false
+      },
+      "cameraVisibility": "back|front",
+      "castShadow": false,
+      "hidden": false,
+      "layerIdentifier": "layer0",
+      "nodeName": "Cylinder",
+      "numberOfFaces": 80,
+      "outputVisibility": "preview|capture",
+      "physicsEnabled": false,
+      "prefabIdentifier": "gltf:674920-7a4677af-a031-4632-865c-8a0d587d13ab",
+      "receiveShadow": false,
+      "renderPass": "main_scene",
+      "tags": [],
+      "transform": {
+        "rx": 0,
+        "ry": 0,
+        "rz": 0,
+        "sx": 1,
+        "sy": 1,
+        "sz": 1,
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "useEmbeddedBlendshapes": false,
+      "children": [
+        {
+          "modelName": "surfaces",
+          "identifier": "surfaces:674918-7a4677af-a031-4632-865c-8a0d587d13ab",
+          "children": [
+            {
+              "modelName": "surface",
+              "name": "surface0",
+              "identifier": "surface:674923-7a4677af-a031-4632-865c-8a0d587d13ab",
+              "isMaterialIdentifierEnabled": true,
+              "materialIdentifier": "dependent_metallic_roughness_p_b_r_material_model:674914-7a4677af-a031-4632-865c-8a0d587d13ab",
+              "surfaceGroupIdentifier": "674924-7a4677af-a031-4632-865c-8a0d587d13ab"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
