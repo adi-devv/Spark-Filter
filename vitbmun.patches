@@ -1,0 +1,452 @@
+{
+  "id": "6738177a4677afa0314632865c8a0d587d13ab",
+  "revision": "7046987a4677afa0314632865c8a0d587d13ab",
+  "version": {
+    "dev": 0,
+    "patch": 0,
+    "prod": 180
+  },
+  "creatorIdentifier": "com.facebook.arstudio.skylight",
+  "creatorPlatform": "windows",
+  "creatorFileVersion": {
+    "dev": 0,
+    "patch": 0,
+    "prod": 180
+  },
+  "visual_programming": {
+    "connections": [
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:676266-7a4677af-a031-4632-865c-8a0d587d13ab",
+        "fromPatch": "template_patch_model:676260-7a4677af-a031-4632-865c-8a0d587d13ab",
+        "fromPort": "100",
+        "toPatch": "template_patch_model:676262-7a4677af-a031-4632-865c-8a0d587d13ab",
+        "toPort": "2"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:676270-7a4677af-a031-4632-865c-8a0d587d13ab",
+        "fromPatch": "template_patch_model:676262-7a4677af-a031-4632-865c-8a0d587d13ab",
+        "fromPort": "100",
+        "toPatch": "consumer_patch_model:674794-7a4677af-a031-4632-865c-8a0d587d13ab",
+        "toPort": "1"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:678568-7a4677af-a031-4632-865c-8a0d587d13ab",
+        "fromPatch": "template_patch_model:678562-7a4677af-a031-4632-865c-8a0d587d13ab",
+        "fromPort": "1001",
+        "toPatch": "template_patch_model:678566-7a4677af-a031-4632-865c-8a0d587d13ab",
+        "toPort": "101"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:678570-7a4677af-a031-4632-865c-8a0d587d13ab",
+        "fromPatch": "template_patch_model:678566-7a4677af-a031-4632-865c-8a0d587d13ab",
+        "fromPort": "1001",
+        "toPatch": "consumer_patch_model:678564-7a4677af-a031-4632-865c-8a0d587d13ab",
+        "toPort": "101"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:681022-7a4677af-a031-4632-865c-8a0d587d13ab",
+        "fromPatch": "template_patch_model:680992-7a4677af-a031-4632-865c-8a0d587d13ab",
+        "fromPort": "100",
+        "toPatch": "template_patch_model:681018-7a4677af-a031-4632-865c-8a0d587d13ab",
+        "toPort": "2"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:681294-7a4677af-a031-4632-865c-8a0d587d13ab",
+        "fromPatch": "template_patch_model:681018-7a4677af-a031-4632-865c-8a0d587d13ab",
+        "fromPort": "100",
+        "toPatch": "consumer_patch_model:681292-7a4677af-a031-4632-865c-8a0d587d13ab",
+        "toPort": "1"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:686658-7a4677af-a031-4632-865c-8a0d587d13ab",
+        "fromPatch": "producer_patch_model:686654-7a4677af-a031-4632-865c-8a0d587d13ab",
+        "fromPort": "0",
+        "toPatch": "template_patch_model:676262-7a4677af-a031-4632-865c-8a0d587d13ab",
+        "toPort": "1"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:688233-7a4677af-a031-4632-865c-8a0d587d13ab",
+        "fromPatch": "producer_patch_model:688231-7a4677af-a031-4632-865c-8a0d587d13ab",
+        "fromPort": "0",
+        "toPatch": "template_patch_model:681018-7a4677af-a031-4632-865c-8a0d587d13ab",
+        "toPort": "1"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:691166-7a4677af-a031-4632-865c-8a0d587d13ab",
+        "fromPatch": "template_patch_model:691164-7a4677af-a031-4632-865c-8a0d587d13ab",
+        "fromPort": "100",
+        "toPatch": "template_patch_model:691168-7a4677af-a031-4632-865c-8a0d587d13ab",
+        "toPort": "2"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:691170-7a4677af-a031-4632-865c-8a0d587d13ab",
+        "fromPatch": "template_patch_model:691168-7a4677af-a031-4632-865c-8a0d587d13ab",
+        "fromPort": "100",
+        "toPatch": "consumer_patch_model:690128-7a4677af-a031-4632-865c-8a0d587d13ab",
+        "toPort": "1"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:696406-7a4677af-a031-4632-865c-8a0d587d13ab",
+        "fromPatch": "producer_patch_model:696404-7a4677af-a031-4632-865c-8a0d587d13ab",
+        "fromPort": "0",
+        "toPatch": "template_patch_model:691168-7a4677af-a031-4632-865c-8a0d587d13ab",
+        "toPort": "1"
+      }
+    ],
+    "graphs": [
+      {
+        "modelName": "patch_graph",
+        "identifier": "patch_graph:673905-7a4677af-a031-4632-865c-8a0d587d13ab",
+        "subpatches": [
+          "consumer_patch_model:674794-7a4677af-a031-4632-865c-8a0d587d13ab",
+          "consumer_patch_model:678564-7a4677af-a031-4632-865c-8a0d587d13ab",
+          "consumer_patch_model:681292-7a4677af-a031-4632-865c-8a0d587d13ab",
+          "consumer_patch_model:690128-7a4677af-a031-4632-865c-8a0d587d13ab",
+          "producer_patch_model:686654-7a4677af-a031-4632-865c-8a0d587d13ab",
+          "producer_patch_model:688231-7a4677af-a031-4632-865c-8a0d587d13ab",
+          "producer_patch_model:696404-7a4677af-a031-4632-865c-8a0d587d13ab",
+          "template_patch_model:676260-7a4677af-a031-4632-865c-8a0d587d13ab",
+          "template_patch_model:676262-7a4677af-a031-4632-865c-8a0d587d13ab",
+          "template_patch_model:678562-7a4677af-a031-4632-865c-8a0d587d13ab",
+          "template_patch_model:678566-7a4677af-a031-4632-865c-8a0d587d13ab",
+          "template_patch_model:680992-7a4677af-a031-4632-865c-8a0d587d13ab",
+          "template_patch_model:681018-7a4677af-a031-4632-865c-8a0d587d13ab",
+          "template_patch_model:691164-7a4677af-a031-4632-865c-8a0d587d13ab",
+          "template_patch_model:691168-7a4677af-a031-4632-865c-8a0d587d13ab"
+        ]
+      }
+    ],
+    "patches": [
+      {
+        "modelName": "consumer_patch_model",
+        "name": "Text",
+        "identifier": "consumer_patch_model:674794-7a4677af-a031-4632-865c-8a0d587d13ab",
+        "object": "defaultMaterial:674678-7a4677af-a031-4632-865c-8a0d587d13ab",
+        "objectProperty": "diffuse_texture_slot",
+        "position": [
+          836,
+          164
+        ]
+      },
+      {
+        "modelName": "consumer_patch_model",
+        "name": "Cylinder",
+        "identifier": "consumer_patch_model:678564-7a4677af-a031-4632-865c-8a0d587d13ab",
+        "object": "master3_d_object_model:675529-7a4677af-a031-4632-865c-8a0d587d13ab",
+        "objectProperty": "rotation",
+        "position": [
+          1028,
+          260
+        ],
+        "values": [
+          {
+            "port": "101",
+            "value": {
+              "t": "vec3",
+              "v": [
+                0,
+                90,
+                180
+              ]
+            }
+          }
+        ],
+        "variantInfo": "local_transform"
+      },
+      {
+        "modelName": "consumer_patch_model",
+        "name": "iam",
+        "identifier": "consumer_patch_model:681292-7a4677af-a031-4632-865c-8a0d587d13ab",
+        "object": "defaultMaterial:681064-7a4677af-a031-4632-865c-8a0d587d13ab",
+        "objectProperty": "diffuse_texture_slot",
+        "position": [
+          1148,
+          -52
+        ]
+      },
+      {
+        "modelName": "consumer_patch_model",
+        "name": "mun",
+        "identifier": "consumer_patch_model:690128-7a4677af-a031-4632-865c-8a0d587d13ab",
+        "object": "defaultMaterial:689866-7a4677af-a031-4632-865c-8a0d587d13ab",
+        "objectProperty": "diffuse_texture_slot",
+        "position": [
+          1964,
+          20
+        ]
+      },
+      {
+        "modelName": "producer_patch_model",
+        "name": "a1",
+        "identifier": "producer_patch_model:686654-7a4677af-a031-4632-865c-8a0d587d13ab",
+        "object": "texture:686442-7a4677af-a031-4632-865c-8a0d587d13ab",
+        "position": [
+          -101.80000305175781,
+          55.06666564941406
+        ]
+      },
+      {
+        "modelName": "producer_patch_model",
+        "name": "a2",
+        "identifier": "producer_patch_model:688231-7a4677af-a031-4632-865c-8a0d587d13ab",
+        "object": "texture:688015-7a4677af-a031-4632-865c-8a0d587d13ab",
+        "position": [
+          -7.800077438354492,
+          -190.2666778564453
+        ]
+      },
+      {
+        "modelName": "producer_patch_model",
+        "name": "mun(1)",
+        "identifier": "producer_patch_model:696404-7a4677af-a031-4632-865c-8a0d587d13ab",
+        "object": "texture:696142-7a4677af-a031-4632-865c-8a0d587d13ab",
+        "position": [
+          1429.8922119140625,
+          -11.48207950592041
+        ]
+      },
+      {
+        "modelName": "template_patch_model",
+        "name": "2D Transform Pack",
+        "identifier": "template_patch_model:676260-7a4677af-a031-4632-865c-8a0d587d13ab",
+        "position": [
+          92,
+          212
+        ],
+        "templateId": "builtin.2DTransformPack",
+        "values": [
+          {
+            "port": "0",
+            "value": {
+              "t": "vec2",
+              "v": [
+                -0.949999988079071,
+                -0.1
+              ]
+            }
+          },
+          {
+            "port": "1",
+            "value": {
+              "t": "vec2",
+              "v": [
+                -0.699999988079071,
+                0.7
+              ]
+            }
+          },
+          {
+            "port": "2",
+            "value": {
+              "t": "double",
+              "v": 0
+            }
+          },
+          {
+            "port": "3",
+            "value": {
+              "t": "vec2",
+              "v": [
+                1,
+                0.4
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "modelName": "template_patch_model",
+        "name": "Texture Transform",
+        "identifier": "template_patch_model:676262-7a4677af-a031-4632-865c-8a0d587d13ab",
+        "position": [
+          428,
+          140
+        ],
+        "templateId": "builtin.shaders.textureTransform"
+      },
+      {
+        "modelName": "template_patch_model",
+        "name": "Loop Animation",
+        "identifier": "template_patch_model:678562-7a4677af-a031-4632-865c-8a0d587d13ab",
+        "position": [
+          428,
+          284
+        ],
+        "templateId": "builtin.group.loopAnimation",
+        "values": [
+          {
+            "port": "102",
+            "value": {
+              "t": "double",
+              "v": 5
+            }
+          }
+        ]
+      },
+      {
+        "modelName": "template_patch_model",
+        "name": "Transition",
+        "identifier": "template_patch_model:678566-7a4677af-a031-4632-865c-8a0d587d13ab",
+        "position": [
+          668,
+          284
+        ],
+        "templateId": "builtin.group.transition",
+        "values": [
+          {
+            "port": "102",
+            "value": {
+              "t": "vec3",
+              "v": [
+                0,
+                0,
+                180
+              ]
+            }
+          },
+          {
+            "port": "103",
+            "value": {
+              "t": "vec3",
+              "v": [
+                0,
+                359,
+                180
+              ]
+            }
+          }
+        ],
+        "variantInfo": "vec3"
+      },
+      {
+        "modelName": "template_patch_model",
+        "name": "2D Transform Pack",
+        "identifier": "template_patch_model:680992-7a4677af-a031-4632-865c-8a0d587d13ab",
+        "position": [
+          524,
+          -28
+        ],
+        "templateId": "builtin.2DTransformPack",
+        "values": [
+          {
+            "port": "0",
+            "value": {
+              "t": "vec2",
+              "v": [
+                -0.949999988079071,
+                -0.1
+              ]
+            }
+          },
+          {
+            "port": "1",
+            "value": {
+              "t": "vec2",
+              "v": [
+                -0.699999988079071,
+                0.7
+              ]
+            }
+          },
+          {
+            "port": "2",
+            "value": {
+              "t": "double",
+              "v": 0
+            }
+          },
+          {
+            "port": "3",
+            "value": {
+              "t": "vec2",
+              "v": [
+                1,
+                0.4
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "modelName": "template_patch_model",
+        "name": "Texture Transform",
+        "identifier": "template_patch_model:681018-7a4677af-a031-4632-865c-8a0d587d13ab",
+        "position": [
+          860,
+          -76
+        ],
+        "templateId": "builtin.shaders.textureTransform"
+      },
+      {
+        "modelName": "template_patch_model",
+        "name": "2D Transform Pack",
+        "identifier": "template_patch_model:691164-7a4677af-a031-4632-865c-8a0d587d13ab",
+        "position": [
+          1195.5332103236155,
+          52.671766141557555
+        ],
+        "templateId": "builtin.2DTransformPack",
+        "values": [
+          {
+            "port": "0",
+            "value": {
+              "t": "vec2",
+              "v": [
+                -0.949999988079071,
+                -0.1
+              ]
+            }
+          },
+          {
+            "port": "1",
+            "value": {
+              "t": "vec2",
+              "v": [
+                -0.699999988079071,
+                0.7
+              ]
+            }
+          },
+          {
+            "port": "2",
+            "value": {
+              "t": "double",
+              "v": 0
+            }
+          },
+          {
+            "port": "3",
+            "value": {
+              "t": "vec2",
+              "v": [
+                1,
+                0.4
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "modelName": "template_patch_model",
+        "name": "Texture Transform",
+        "identifier": "template_patch_model:691168-7a4677af-a031-4632-865c-8a0d587d13ab",
+        "position": [
+          1531.5332103236155,
+          4.671766141557555
+        ],
+        "templateId": "builtin.shaders.textureTransform"
+      }
+    ]
+  }
+}
